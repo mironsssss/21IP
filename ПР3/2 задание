@@ -1,1 +1,5 @@
-
+numbers = [10, 20, 30]
+print("До изменения:", numbers)
+numbers.append(40)
+numbers[0] = 100
+print("После изменения:", numbers)
